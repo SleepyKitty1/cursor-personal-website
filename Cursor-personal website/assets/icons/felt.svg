@@ -1,0 +1,17 @@
+﻿<svg xmlns=http://www.w3.org/2000/svg width=64 height=64 viewBox=0 0 64 64 fill=none>
+  <defs>
+    <linearGradient id=g2 x1=12 y1=12 x2=52 y2=52 gradientUnits=userSpaceOnUse>
+      <stop stop-color=#FBBF24 stop-opacity=0.9/>
+      <stop offset=1 stop-color=#EC4899 stop-opacity=0.9/>
+    </linearGradient>
+  </defs>
+  <rect x=6 y=6 width=52 height=52 rx=14 fill=rgba(255,255,255,0.06) stroke=rgba(255,255,255,0.18)/>
+  <!-- felt ball -->
+  <circle cx=28 cy=30 r=12 fill=url(#g2) opacity=0.9/>
+  <circle cx=23 cy=27 r=3 fill=rgba(255,255,255,0.28)/>
+  <circle cx=31 cy=35 r=2 fill=rgba(255,255,255,0.22)/>
+  <path d=M39 40c4 2 6 5 6 8 stroke=url(#g2) stroke-width=3 stroke-linecap=round/>
+  <!-- needle -->
+  <path d=M41 22l10 10 stroke=rgba(255,255,255,0.65) stroke-width=2 stroke-linecap=round/>
+  <path d=M49 21l2 2 stroke=rgba(255,255,255,0.65) stroke-width=2 stroke-linecap=round/>
+</svg>
